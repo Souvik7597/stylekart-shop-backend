@@ -11,7 +11,7 @@ const app = express()
 const port = process.env.PORT || 6001
 
 const corsOptions = {
-    origin: ["http://127.0.0.1:5500", "http://10.162.155.222:5500"], 
+    origin: ["http://127.0.0.1:5500", "http://10.162.155.222:5500","https://stylekart-shop-frontend.vercel.app"], 
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials: true, 
     allowedHeaders: ["Content-Type", "Authorization"] 
